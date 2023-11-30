@@ -3,10 +3,12 @@
 
 name: Azure App Service - app-lkwe-test-7b5f(staging), Build and deploy DotnetCore app
 
+
 on:
   push:
     branches:
       - develop
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
